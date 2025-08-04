@@ -1,24 +1,49 @@
-# README
+# Blog App - Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple blog application built with **Ruby on Rails**, following the curriculum of [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app).
 
-Things you may want to cover:
+Users can create, view, and manage articles. Each article can have multiple comments.
 
-* Ruby version
+## Features
 
-* System dependencies
+- Create, edit, and delete blog posts
+- Add comments to blog posts
+- Basic routing using Rails conventions
+- Full MVC structure (Models, Views, Controllers)
 
-* Configuration
+## Getting Started
 
-* Database creation
 
-* Database initialization
+Follow the steps below to run the project locally.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+Ensure you have the following installed:
 
-* Deployment instructions
+- Ruby (version `3.0.0` or above recommended)
+- Rails (version `7.0+`)
+- SQLite3
+- Node.js & Yarn (for Rails asset pipeline)
 
-* ...
+### Setup
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/rails-blog-app.git
+   cd rails-blog-app
+
+2. **Install dependencies**
+   ```bash
+   bundle install
+   yarn install
+
+3. **Set up the database**
+   ```bash
+   bin/rails db:create
+   bin/rails db:migrate
+
+4. **Start the Rails server**
+   ```bash
+   bin/rails server
+
